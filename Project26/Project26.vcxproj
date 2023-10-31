@@ -133,11 +133,17 @@
   <ItemGroup>
     <ClInclude Include="Book.h" />
     <ClInclude Include="Deserialism.h" />
-    <ClInclude Include="Serealism.h" />
+    <ClInclude Include="Header.h" />
     <ClInclude Include="Includes.h" />
+    <ClInclude Include="Serealism.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="text.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Booking.csv" />
     <None Include="Boox.csv" />
+    <None Include="Module.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

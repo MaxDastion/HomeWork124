@@ -13,25 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Файлы ресурсов\Book">
-      <UniqueIdentifier>{21536851-cd3c-4788-bedf-d09cd120b5f4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы ресурсов\Deserialize">
-      <UniqueIdentifier>{c9feef53-2585-4fc6-b671-3cbaa0007d13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы ресурсов\FilterCSV">
-      <UniqueIdentifier>{fe6d2ff7-2f15-4443-aa3d-0b5cbd1c389c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы ресурсов\Serialism">
-      <UniqueIdentifier>{655351f5-4ac7-448d-9cce-993b62d5bcaf}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Book.cpp">
-      <Filter>Файлы ресурсов\Book</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,18 +27,26 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Book.h">
-      <Filter>Файлы ресурсов\Book</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Deserialism.h">
-      <Filter>Файлы ресурсов\Deserialize</Filter>
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Serealism.h">
-      <Filter>Файлы ресурсов\Serialism</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Boox.csv">
-      <Filter>Файлы ресурсов\FilterCSV</Filter>
-    </None>
+    <Text Include="text.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Booking.csv" />
+    <None Include="Boox.csv" />
+    <None Include="Module.csv" />
   </ItemGroup>
 </Project>
